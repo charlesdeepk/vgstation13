@@ -190,6 +190,17 @@
 /obj/item/projectile/bullet/a762
 	damage = 25
 
+/obj/item/projectile/bullet/ball_bearing
+	name = "ball bearing"
+	// icon = 'icons/obj/items.dmi'
+	// icon_state = "ball_bearing"
+	icon = null
+	bounces = 2
+	damage_type = BRUTE
+	damage = 10
+	bounce_type = PROJREACT_WALLS|PROJREACT_OBJS
+	
+
 #define SPUR_FULL_POWER 4
 #define SPUR_HIGH_POWER 3
 #define SPUR_MEDIUM_POWER 2

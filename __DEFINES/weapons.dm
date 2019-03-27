@@ -16,6 +16,7 @@
 #define ROCKETGRENADE "rpg"
 #define GUIDEDROCKET "guided rocket"
 
+#define BALL "ball_bearing"
 
 #define PULSE "pulse"
 #define GAUGE12 "12 gauge"
